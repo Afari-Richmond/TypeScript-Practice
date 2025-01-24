@@ -7,7 +7,6 @@ let x: any = "Hello World ";
 
 let ids: number[] = [1, 2, 3, 4, 5];
 
-ids.push("hello world");
 let array: any[] = [1, true, "hello"];
 
 // Tuple
@@ -21,3 +20,25 @@ employee = [
   [1, "Richmond"],
   [2, "Afari"],
 ];
+
+// Union
+let pid: string | number = 22;
+
+// enum
+
+enum Direction1 {
+  Up,
+  Down,
+  Left,
+  Right,
+}
+
+console.log(Direction1.Up);
+
+enum Dirction2 {
+    Up = "Up",
+    Down = "Down",
+    Left = "Left",
+    Right = "Right"
+
+}
