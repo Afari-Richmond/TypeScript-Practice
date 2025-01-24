@@ -36,9 +36,22 @@ enum Direction1 {
 console.log(Direction1.Up);
 
 enum Dirction2 {
-    Up = "Up",
-    Down = "Down",
-    Left = "Left",
-    Right = "Right"
-
+  Up = "Up",
+  Down = "Down",
+  Left = "Left",
+  Right = "Right",
 }
+
+// Objects
+
+const User: {
+  id: number;
+  name: string;
+} = {
+  id: 1,
+  name: "Richmond",
+};
+
+// Type Assertion
+let cid : any = 1;
+let customerId = <number>cid
